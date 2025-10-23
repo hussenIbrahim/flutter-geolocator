@@ -1,3 +1,33 @@
+## 14.0.2
+
+- Adds section about `UIBackgroundModes` to the README. 
+- Adds Linux as a supported platform to pubspec. 
+
+## 14.0.1
+
+- Adds section about `FOREGROUND_SERVICE_LOCATION` to the README. 
+- Fixes PlatformException in example app for Android 14 (SDK level 34) and newer by updating manifest permissions.
+
+## 14.0.0
+
+- **BREAKING CHANGE:** for Flutter `3.27.0` and below. Make sure you'll upgrade Flutter to `3.29.0` or above before using this version.
+- Bump `flutter_lints` to version of afp to 5.0.0
+- Updated `geolocator_android` dependency to version `^5.0.0`
+
+## 13.0.4
+
+- Bump `flutter_lints` to version 5.0.0. Later added: of afp example project.
+
+## 13.0.3
+
+- Updates dart sdk to `sdk: ^3.5.0`
+- Updates example project and fixes analyzer issues
+
+## 13.0.2
+
+- Updates dependency on geolocator_apple to version 2.3.8.
+- Migrates Android configuration of example app away from imperative gradle API.
+
 ## 13.0.1
 
 - Resolves problems when compiling non-web platforms because of illegal reference to `dart:js_interop`.
